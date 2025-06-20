@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-cadastro label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-cadastro input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-cadastro input[type="submit"] {
+    padding: 10px;
+    background-color: #4c5a4c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.form-cadastro input[type="submit"]:hover {
+    background-color: #878d87;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.lista-produtos {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.lista-produtos li {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.lista-produtos .remover {
+    color: red;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.lista-produtos .remover:hover {
+    text-decoration: underline;
+}

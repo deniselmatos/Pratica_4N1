@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.formulario {
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+}
+
+.formulario input[type="text"], 
+.formulario input[type="submit"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #1a241a;
+    color: white;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #99a599;
+}
+
+ul.lista-participantes {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+ul.lista-participantes li {
+    background-color: #fafafa;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
